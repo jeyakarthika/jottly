@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------------------
+
+  Project Name: Jott.ly
+  Project Description: A SaaS Collaboration service for easy content creation and sharing.
+  File Name: style.css
+  Author: Jeya Karthika
+  Author URI: http://www.jeya.me
+  Version: 0.1
+  
+----------------------------------------------------------------------------------*/
+
+/*  Common Styles
+================= */
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+.container-fluid {
+  width: 100%; 
+  max-width: 100%; 
+  clear: both; 
+  margin: 0 auto;
+}
+
+/*  fixed header
+================ */
+
+header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 15%;
+    background-color: #fff;
+  }
