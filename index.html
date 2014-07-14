@@ -18,13 +18,13 @@
    
    <!-- Fonts -->
    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
    <!-- CSS -->
    <link rel="stylesheet" href="stylesheets/base.css">
    <link rel="stylesheet" href="stylesheets/skeleton.css">
-   <link rel="stylesheet" href="stylesheets/layout.css">
    <link rel="stylesheet" href="stylesheets/style.css">
+   <link rel="stylesheet" href="stylesheets/layout.css">
 
 
    <!--[if lt IE 9]>
@@ -39,13 +39,157 @@
 
 </head>
 <body>
-	<header class="container-fluid">
-		<h1 class="logo">
-			<a href="#">
-				<img src="images/logo.png">
-				Jott.ly
-			</a>
-		</h1>
-	</header>
+   <!-- Fixed Header -->
+   <header id="header">
+      <div class="container row">
+
+         <!-- Branding mark and name -->
+         <div class="branding five columns alpha">
+            <a href="#" class="logo"><img src="images/logo.png" alt="Jott.ly Logo"></a>
+            <a href="#" class="logo-text"><h1>Jott.ly</h1></a>
+         </div>
+
+         <!-- Navigation -->
+         <div class="eleven columns omega">
+            <nav>
+               <ul>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">User Stories</a></li>
+                  <li><a href="#" class="selected">Sign Up</a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+
+   <!-- Home Section -->
+   <section id="home" class="container">
+      <div class="hero-unit sixteen columns">
+         <h1>Write. Collaborate. Share.</h1>
+         <p>A simple way to write &amp; share content with your peers for easy collaboration.</p>
+
+         <a href="#">Start Writing</a>
+         <p>*Sign up for free</p>
+      </div>
+         
+      <div class="jottly-screen fourteen columns offset-by-two">
+         <img src="images/Browser.png" alt="Jottly Screen" />
+      </div>
+   </section>
+
+   <!-- Features Section -->
+   <section id="features" class="container">
+      <h2><span>Change the way</span> you write &amp; share</h2>
+
+      <!-- Write Feature -->
+      <div>
+         <img src="images/write.jpg">
+         <h3>Write</h3>
+         <p>Jott.ly provides a clean &amp; minimal UI with Markdown Support and Zen option for distraction free writing modes.</p>
+      </div>
+
+      <!-- Collaborate Feature -->
+      <div>
+         <img src="images/collaborate.jpg">
+         <h3>Collaborate</h3>
+         <p>Cloud sync provides you and your peers with a seamless experiece while using the new annotatation &amp; discussion features.</p>
+      </div>
+
+      <!-- Share Feature -->
+      <div>
+         <img src="images/share.jpg">
+         <h3>Share</h3>
+         <p>Single click to share your content or export. We have got you covered for every platform and file format you will need.</p>
+      </div>
+   </section>
+
+   <!-- Team Section -->
+   <section id="team" class="container">
+      <h2>Meet the people behind Jott.ly</h2>
+
+      <!-- Kinsley Details -->
+      <div>
+         <img src="images/kinsley.jpg">
+         <div>
+            <h3>Kinsley Wilson</h3>
+            <p>Founder, UX/UI Design</p>
+         </div>
+      </div>
+
+      <!-- Norbert Details -->
+      <div>
+         <img src="images/norbert.jpg">
+         <div>
+            <h3>Norbert Bârcianu</h3>
+            <p>Co-Founder, Web Development</p>
+         </div>
+      </div>
+
+      <!-- Fabian Details -->
+      <div>
+         <img src="images/fabian.jpg">
+         <div>
+            <h3>Fabian Leitner</h3>
+            <p>Co-Founder, Marketing &amp; Support</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- User Stories Section -->
+   <section id="stories" class="container">
+      <!-- story -->
+      <div>
+         <h4>Milena Bauer (CEO, The Magazine)</h4>
+         <hr>
+         <blockquote>
+            <h2><span></span>Jott.ly has everything I need to share my ideas and focus on creating more.</h2>
+         </blockquote>
+      </div>
+
+      <!-- user block -->
+      <div>
+         <!-- user 1 -->
+         <div>
+            <img src="images/user1.jpg">
+            <span></span>
+         </div>
+
+         <!-- user 2 -->
+         <div>
+            <img src="images/user2.jpg">
+            <span></span>
+         </div>
+
+         <!-- user 3 -->
+         <div>
+            <img src="images/user3.jpg">
+            <span></span>
+         </div>
+      </div>
+      
+   </section>
+
+   <!-- sign up section -->
+   <section id="signup" class="container">
+      <div>
+         <h2><span>Discover a new way</span> to create &amp; share content</h2>
+         <p>Jott.ly makes smart &amp; effortless communication a breeze</p>
+         <form action=" ">
+           <input type="text" id="signup" placeholder="Enter your email &amp; | " required/>
+           <button type="submit">Start Writing</button>
+         </form>
+      </div> 
+      <footer>
+         <hr/>
+         <p>
+            Crafted with &hearts; by <a href="http://jeya.me">jeya</a>
+         </p>
+         <p>
+            &copy; 2014. Jott.ly Inc. All Rights Reserved.
+         </p>
+      </footer>
+   </section>
+
 </body>
 </html>
