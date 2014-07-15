@@ -5,7 +5,7 @@
   File Name: style.css 
   Author: Jeya Karthika
   Author URI: http://www.jeya.me
-  Version: 0.1
+  Version: 0.2
 
   This is adapted from Skeleton V1.2's base.css by Dave Gamache
   
@@ -81,7 +81,7 @@ body {
 	-webkit-text-size-adjust: 100%;
  }
 
-img {
+img.scale-with-grid {
 	max-width: 100%;
 	height: auto;
 }
@@ -90,14 +90,15 @@ hr {
 	border: solid #ddd; 
 	border-width: 1px 0 0; 
 	clear: both; 
-	margin: 10px 0 30px; 
+	margin: 10px auto 30px; 
 	height: 0; 
+	color: #e2e2e2;
 }
 
 /* #Typography
 ================================================== */
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, input {
 	font-family: "Source Sans Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	color: #2f2f2d;
@@ -110,7 +111,26 @@ h1 {
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 4em;
+	font-weight: 200;
+	font-style: italic;
+	margin: 0 auto;
+}
+
+h2 span {
+	color: #4bc4d5;
+}
+
+h3, h4 {
+	font-size: 2.5em;
+	padding: 1em 0;
+	color: #58be8e;
+}
+
+p {
+	font-weight: 200;
+	font-size: 1.2em;
+	padding: 0 1.8em;
 }
 
 a {
@@ -119,8 +139,9 @@ a {
 
 ul li {
 	list-style: none;
-  display: inline;
+  	display: inline;
 }
+
 
 
 
