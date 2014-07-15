@@ -31,7 +31,7 @@
 /* #Common Styles
 ================================================== */
 .row {
-
+  margin-bottom: 0;
 }
 
 .container .columns, .container .column {
@@ -40,12 +40,21 @@
 }
 
 section {
-  position: absolute;
+  position: relative;
   height: 84%;
   bottom: 0;
   top: 16%;
   left: 0;
   right: 0;
+}
+
+.sub-header {
+  padding: 3em 0 5em;
+}
+
+.blobs {
+  position: absolute;
+  bottom: 12%;
 }
 
 /* #Header Styles
@@ -59,9 +68,9 @@ header {
   height: 16%;
   padding: 1em;
   margin-bottom: 1em;
-  -webkit-box-shadow: 0px 1px 10px -4px rgba(50, 50, 50, 0.75);
+  /*-webkit-box-shadow: 0px 1px 10px -4px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0px 1px 10px -4px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 1px 10px -4px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 1px 10px -4px rgba(50, 50, 50, 0.75);*/
   z-index: 1000;
   background-color: #fff;
 }
@@ -111,20 +120,217 @@ header {
 ================================================== */
 #home .hero-unit {
   position: absolute;
-  top: 2em;
+  top: 0.2em;
   left: 0;
-  padding-bottom: 2em;
+  padding: 1em 0 2em;
 }
+  .hero-unit h1 {
+    padding: 0.2em 0;
+  }
   
   .hero-unit p {
     font-weight: 200;
-    font-size: 2.5em;
-    padding: 0.5em 3em;
+    font-size: 2em;
+    padding: 0.5em 4.2em 1.7em;
   }
+
+  .call-to-action {
+    background-color: #58be8e;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+
+  p.fine-print {
+    font-size: 0.7em;
+    padding-top: 1.5em;
+  }
+
 
 
 #home .jottly-screen {
   position: absolute;
   left: 0;
   bottom: 0;
+  margin: 0 auto 0;
 }
+
+  .jottly-screen img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    bottom: -0.3em;
+    left: 0;
+  }
+
+/* #Features Styles
+================================================== */
+
+.feature-icon {
+  color: #4bc4d5;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  padding: 0.6em;
+  width: 2.2em;
+  height: 2.2em;
+}
+
+/* #Team Styles
+================================================== */
+#team .blobs {
+  bottom: 0;
+  margin-left: 2em;
+}
+
+#team div.member {
+  margin-left: 0; 
+  margin-right: 0;
+  background-color: #e2e2e2;
+}
+  
+  #team .sub-header {
+    padding-top: 4.5em;
+  }
+
+  .member img:nth-child(odd) {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .member img:nth-child(even) {
+    position: relative;
+    bottom: -0.25em;
+    left: 0;
+  }
+
+  .member-name h3 {
+    font-size: 2em;
+    padding-bottom: 0.3em;
+  }
+
+  .member-name p {
+    padding: 0 0 2em;
+  }
+
+/* #User Stories Styles
+================================================== */
+#stories .story {
+  padding-top: 4em;
+  bottom: 2em;
+}
+
+#stories .story hr {
+  text-align: center;
+  width: 8em;
+  color: #e2e2e2;
+}
+  blockquote {
+    position: relative;
+    left: 0;
+  }
+
+  blockquote h2 {
+    text-align: left;
+    font-size: 3.1em;
+    padding-left: 3.8em;
+  }
+
+  blockquote::before {
+    content: "\201C"; /*Unicode for Left Double Quote*/
+    font-size: 19em;
+    font-weight: 600;
+    color: #e2e2e2;
+    position: absolute;
+    left: 0; 
+    top: -0.26em;
+  }
+
+  blockquote::after {
+    content: "";
+  }
+
+    .story-icon {
+      position: absolute;
+      bottom: 0;
+      right: 2.6em;
+      color: #4bc4d5;
+    }
+
+/* #Signup Styles
+================================================== */
+
+
+/* #Footer Styles
+================================================== */
+    
+
+#signup .sub-header h2 {
+  font-size: 3.3em;
+}
+
+#signup .sub-header p {
+  font-weight: 200;
+  font-size: 2em;
+  padding: 0.5em 3em 0;
+}
+
+#signup input {
+  font-weight: 200;
+  font-size: 2em;
+  background: #f4f4f4;
+  border: none;
+  border-radius: 50px;
+  color: #e2e2e2;
+  padding: 0.6em 4em;
+  outline: none;
+}
+
+#signup .call-to-action {
+  position: absolute;
+  right: 10.3em;
+  bottom: 0.5em;
+  padding: 1em 1.5em;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  z-index: 1000;
+}
+
+#signup .social {
+  padding: 2em 0 0;
+}
+
+  #signup .social p {
+    padding: 3em 0 0.3em;
+  }
+
+  #signup .social i {
+    padding: 1em 0.3em;
+  }
+
+#signup footer {
+  position: relative;
+  bottom: 0;
+}
+  
+  footer p {
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+  }
+
+  footer p.copyright {
+    float: right;
+  }
+
+    footer p a {
+      color: #2f2f2d;
+    }
+
+
+
+
+
