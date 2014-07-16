@@ -18,7 +18,7 @@
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
 		h2 {
-			font-size: 3.5em;
+			font-size: 3em;
 		}
 
 		.feature-icon {
@@ -104,7 +104,11 @@
 	  }
 
 	  .feature-blobs div {
-	  	padding-bottom: 2em;
+	  	padding-bottom: 3em;
+	  }
+
+	  h3 {
+	  	padding: 0.3em 0 0.2em;
 	  }
 
 	  #team div.member {
@@ -129,7 +133,7 @@
 	  }
 
 	  #stories .user {
-	  	margin-top: 5em;
+	  	margin-top: 2em;
 	  }
 
 	  .story-icon {
@@ -179,5 +183,20 @@
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
+		nav {
+			padding-right: 0;
+		}
+
+		nav ul li a {
+			padding-left: 0.5em;
+		}
+
+		nav ul li:first-child a {
+			padding-left: 0;
+		}
+
+		h2 {
+			font-size: 2.5em;
+		}
 
 	}
