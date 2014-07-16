@@ -67,6 +67,10 @@
 			position: relative;
 		}
 
+		section {
+			height: auto;
+		}
+
 		/*Header
 		.branding {
 			padding: 0;
@@ -75,6 +79,10 @@
 		.logo img {
 			width: 80%;
 		}*/
+
+		nav {
+			text-align: center;
+		}
 
 		.hero-unit h1 {
 	    padding: 1.2em 0 0;
