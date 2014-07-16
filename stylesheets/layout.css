@@ -63,7 +63,7 @@
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		/*Resetting all the absolute positioning to relative*/
-		.blobs, #home .hero-unit, #home .jottly-screen, .story-icon, #signup .call-to-action {
+		.blobs, #home .hero-unit, #home .jottly-screen, .story-icon {
 			position: relative;
 		}
 
@@ -99,6 +99,10 @@
 	  	padding-bottom: 2em;
 	  }
 
+	  #team div.member {
+	  	margin-bottom: 2em;
+	  }
+
 	  .member img {
 	  	width: 100%;
 	  }
@@ -124,13 +128,39 @@
       right: 1.8em;
     }
 
+    #signup .sub-header {
+    	padding: 2.5em 0 4em;
+    }
+
     #signup .sub-header p {
     	font-size: 1.6em;
     }
 
 		#signup input {
-		  font-size: 1.8em;
-		  padding: 0.6em 4em;
+		  font-size: 1.6em;
+		  padding: 0.6em 3.8em;
+		}
+
+		#signup .call-to-action {
+		  right: -0.7em;
+		  bottom: 0.3em;
+		  padding: 0.8em 1em;
+		}
+
+		#signup .social p {
+			padding: 2em 0 0.3em;
+		}
+
+		#signup .social a {
+			padding: 0.5em 0.15em 2em;
+		}
+
+		#signup footer {
+		  position: relative;
+		}
+
+		footer p {
+			padding: 0 0 2em;
 		}
 
 	}
