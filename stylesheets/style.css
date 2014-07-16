@@ -99,6 +99,7 @@ header {
   nav {
     position: relative;
     margin: 2.1em 0;
+    padding-right: 1.5em;
     text-align: right;
     right: 0;
     top: 50%;
@@ -192,7 +193,7 @@ header {
 }
   
   #team .sub-header {
-    padding-top: 4.5em;
+    padding-top: 3.8em;
   }
 
   .member img:nth-child(odd) {
@@ -203,7 +204,7 @@ header {
 
   .member img:nth-child(even) {
     position: relative;
-    bottom: -0.25em;
+    bottom: -0.2em;
     left: 0;
   }
 
@@ -213,7 +214,12 @@ header {
   }
 
   .member-name p {
-    padding: 0 0 2em;
+    padding: 0 0 1.3em;
+  }
+
+  .member-name p.post {
+    font-weight: 400;
+    padding: 0 0 0.3em;
   }
 
 /* #User Stories Styles
@@ -228,6 +234,7 @@ header {
   width: 8em;
   color: #e2e2e2;
 }
+
   blockquote {
     position: relative;
     left: 0;
@@ -262,14 +269,11 @@ header {
 
 /* #Signup Styles
 ================================================== */
-
-
-/* #Footer Styles
-================================================== */
-    
-
+#signup .sub-header {
+  padding: 3.5em 0 6em;
+}
 #signup .sub-header h2 {
-  font-size: 3.3em;
+  font-size: 3.2em;
 }
 
 #signup .sub-header p {
@@ -307,15 +311,28 @@ header {
     padding: 3em 0 0.3em;
   }
 
-  #signup .social i {
+  #signup .social a {
     padding: 1em 0.3em;
   }
 
+  #signup .social a {
+    color: #e2e2e2;
+  }
+
+  #signup .social a:hover {
+    color: #4bc4d5;
+  }
+
+
+/* #Footer Styles
+================================================== */
+
 #signup footer {
-  position: relative;
-  bottom: 0;
+  position: absolute;
+  bottom: 2em;
+  left: 0;
 }
-  
+
   footer p {
     display: inline-block;
     float: left;
