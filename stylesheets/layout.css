@@ -198,8 +198,75 @@
 			padding-left: 0;
 		}
 
-		h2 {
-			font-size: 2.5em;
+		#home .hero-unit {
+			padding: 1em 0 0;
 		}
+
+		.hero-unit h1 {
+			font-size: 2em;
+			padding: 1.5em 0 0;
+		}
+		.hero-unit p {
+			font-size: 1.1em;
+		}
+
+		.call-to-action {
+			padding: 0.3em 1em;
+			font-size: 1em;
+		}
+
+		p.fine-print {
+			font-size: 0.6em;
+		}
+
+		h2 {
+			font-size: 2em;
+		}
+
+		.sub-header {
+			padding: 8.5em 0 3em;
+		}
+
+		.feature-icon {
+			font-size: 3.2em;
+		}
+
+		h3 {
+			font-size: 2em;
+		}
+
+		.feature-blobs p {
+			font-size: 1em;
+		}
+
+		#team .sub-header {
+			padding: 8.5em 0 3.8em;
+		}
+
+		h4.user-name {
+			font-size: 1.5em;
+			padding: 1.3em 0 0.5em;
+		}
+
+		#stories .story {
+			padding-top: 8.5em;
+		}
+
+		blockquote h2 {
+	    font-size: 1.5em;
+	    padding-left: 2.2em;
+	  }
+
+	  blockquote::before {
+	    font-size: 6em;
+	  }
+
+	  #stories hr {
+	  	margin-bottom: 1em;
+	  }
+
+	  #stories .user {
+	  	margin-top: 0.5em
+	  }
 
 	}
