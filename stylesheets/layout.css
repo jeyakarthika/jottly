@@ -62,14 +62,6 @@
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		/*Resetting all the absolute positioning to relative*/
-		.blobs, #home .hero-unit, #home .jottly-screen, .story-icon {
-			position: relative;
-		}
-
-		section {
-			height: auto;
-		}
 
 		header {
 			height: 25%;
