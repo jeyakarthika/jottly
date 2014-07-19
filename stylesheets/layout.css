@@ -63,9 +63,6 @@
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 
-		header {
-			height: 25%;
-		}
 		.branding {
 			padding: 0;
 		}
