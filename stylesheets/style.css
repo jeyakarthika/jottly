@@ -41,19 +41,12 @@
 
 section {
   position: relative;
-  height: 84%;
-  top: 16%;
   left: 0;
   right: 0;
 }
 
-.sub-header {
-  padding: 3em 0 5em;
-}
-
-.blobs {
-  position: absolute;
-  bottom: 12%;
+div.sub-header {
+  padding: 9.2em 0 5em;
 }
 
 /* #Header Styles
@@ -118,8 +111,12 @@ header {
 
 /* #Home Styles
 ================================================== */
+#home {
+  padding-top: 6.5em;
+}
+
 #home .hero-unit {
-  position: absolute;
+  /*position: absolute;*/
   top: 0.2em;
   left: 0;
   padding: 1em 0 2em;
@@ -151,7 +148,7 @@ header {
 
 
 #home .jottly-screen {
-  position: absolute;
+  /*position: absolute;*/
   left: 0;
   bottom: 0;
   margin: 0 auto 0;
@@ -161,7 +158,7 @@ header {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     bottom: -0.3em;
     left: 0;
   }
@@ -189,10 +186,6 @@ header {
   margin-right: 0;
   background-color: #e2e2e2;
 }
-  
-  #team .sub-header {
-    padding-top: 3.8em;
-  }
 
   .member img:nth-child(odd) {
     position: relative;
@@ -223,7 +216,7 @@ header {
 /* #User Stories Styles
 ================================================== */
 #stories .story {
-  padding-top: 4em;
+  padding-top: 12em;
   bottom: 2em;
 }
 
@@ -268,8 +261,9 @@ header {
 /* #Signup Styles
 ================================================== */
 #signup .sub-header {
-  padding: 3.5em 0 6em;
+  padding-bottom: 6em;
 }
+
 #signup .sub-header h2 {
   font-size: 3.2em;
 }
@@ -326,9 +320,10 @@ header {
 ================================================== */
 
 #signup footer {
-  position: absolute;
+  position: relative;
   bottom: 2em;
   left: 0;
+  padding-top: 2em;
 }
 
   footer p {
