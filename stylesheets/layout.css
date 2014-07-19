@@ -62,14 +62,6 @@
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		/*Resetting all the absolute positioning to relative*/
-		.blobs, #home .hero-unit, #home .jottly-screen, .story-icon {
-			position: relative;
-		}
-
-		section {
-			height: auto;
-		}
 
 		header {
 			height: 25%;
@@ -223,7 +215,7 @@
 			font-size: 2em;
 		}
 
-		.sub-header {
+		div.sub-header {
 			padding: 8.5em 0 3em;
 		}
 
@@ -298,10 +290,15 @@
 
 		#signup .social a {
 			font-size: 1.5em;
-			padding: 0.5em 0.1em 2em;
+			padding: 0.5em 0.1em 1.5em;
 		}
 
-		footer p {
+		#signup footer {
+			bottom: 1em;
+			padding-top: 0;
+		}
+
+		footer p, footer p.copyright {
 			float: none;
 			padding: 0 0 0.5em;
 		}
