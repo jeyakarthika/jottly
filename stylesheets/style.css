@@ -113,6 +113,8 @@ header {
 ================================================== */
 #home {
   padding-top: 6.5em;
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
 }
 
 #home .hero-unit {
